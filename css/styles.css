@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* #particles-js {
+    background: #1A1A1D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+
+#particles-js {
+    background: #1A1A1D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+} */
+
+#particles-js0 {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+    background-color: #131315;
+}
+
+#particles-js {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+    background-color: #131315;
+}
+
+#particles-js2 {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+    background: #1A1A1D;
+}
+
+#particles-js3 {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+    background:  #1D1D20;
+    ;
+}
+
+#particles-js4 {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+    background:  #27272B;
+    ;
+}
+
+#particles-js5 {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1;
+    background:  #303036;
+    ;
+}
+
+.front-page {
+    height: 100vh;
+    width: 100vw;
+} 
+
+.about-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.projects-section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.workexp-section {
+    position: relative;
+}
+
+.connect-section {
+    position: relative;
+}
+
+.overlay {
+    position: relative;
+    padding: 50px;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.element {
+    font-size: 25px;
+    color: white;
+}
+
+#progress-bar {
+    width: 50%;
+    background-color: grey;
+}
+
+#hide-text {
+    color: #1D1D20;
+    opacity: 0;
+}
+
+#bar-one {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+}
+
+.progress-bar {
+    margin: 20px;
+    max-width: 100%;
+    height: 6px;
+    color: red;
+    background-color:#1A1A1D;
+    opacity: 1;   
+}
+
+h1 {
+    color: #ff5c33;
+}
+
+
+
+.skill-text {
+    font-weight: 250;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imgBox {
+    position: relative;
+}
+
+.project {
+    transition: transform 5s;
+}
+
+.Box:hover {
+    transform: scale(1.2);
+}
+  
+.image-container {
+    position: relative;
+  width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container:hover .image {
+    opacity: 0.3;
+}
+
+.image-container:hover .middle {
+    opacity: 1;
+}
+
+.btn-outline-primary {
+    border-color: #ff5c33;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff5c33c9;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  
+h6 {
+    background-color: #1A1A1D;
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+img {
+    opacity:  1;
+}
+
+.cmodify {
+    background-color: rgba(71, 71, 74, 0.5);
+    color: white;
+    border-color: #ff5c33ab;
+}
+
+
+.card-header {
+    border-bottom-color: #ff5c33;
+    opacity: 1 !important;
+}
+
+.card-title {
+    border-bottom-color: #ff5c33 !important;
+}
+
+.profile-pic {
+    max-width: 40%;
+    height: auto;
+}
+
+.icon {
+    width: 100%;
+    text-align: center;
+}
+
+i {
+    color: rgb(65, 65, 68);
+}
+
+.icon2 {
+    color: white;
+    text-align: right;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+i:hover {
+    color: #ff5c33;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgba(71, 71, 74, 0.5);
+    color: white;
+    text-align: center;
+}
+
+
+
+    
+
+    
