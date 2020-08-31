@@ -1,35 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-/* #particles-js {
-    background: #1A1A1D;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -100;
-    background-size: cover;
+html,body
+{
     width: 100%;
-    height:100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden
 }
-
-#particles-js {
-    background: #1A1A1D;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -100;
-    background-size: cover;
-    width: 100%;
-    height:100%;
-} */
 
 #particles-js0 {
     position: absolute;
@@ -83,13 +58,9 @@ body {
 }
 
 .front-page {
-    height: 100vh;
-    width: 100vw;
-} 
-
-.about-section {
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .projects-section {
@@ -280,8 +251,5 @@ i:hover {
     text-align: center;
 }
 
-
-
-    
 
     
