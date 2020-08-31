@@ -1,9 +1,44 @@
-html,body
+ html,body
 {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden
+    overflow-x: hidden; 
+}
+
+.nav {
+    color:#fff !important;}
+
+/* 
+#particles-js {
+    background: #1A1A1D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}
+
+#particles-js {
+    background: #1A1A1D;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+}  */
+
+.arrow {
+    color: red;
+    text-align: center;
 }
 
 #particles-js0 {
@@ -19,7 +54,7 @@ html,body
     height: 100% !important;
     width: 100% !important;
     z-index: -1;
-    background-color: #131315;
+    background-color: #222831;
 }
 
 #particles-js2 {
@@ -53,34 +88,78 @@ html,body
     height: 100% !important;
     width: 100% !important;
     z-index: -1;
-    background:  #303036;
+    background:  #222831;
     ;
 }
 
+
 .front-page {
-    width: 100%;
-    height: 100%;
     position: relative;
+    height: 100%;
+    width: 100%;
+} 
+
+.skills-section {
+    position: relative;
+    background-color: #222831;
+}
+
+.about-section {
+    position: relative;
+    background-color: #283148;
+    color: white;
 }
 
 .projects-section {
     position: relative;
+    /*background-color: #393e46;*/
+    background-color: #283148;
+}
+
+.main {
     height: 100%;
     width: 100%;
-
+    position: relative;
 }
+
 
 .workexp-section {
     position: relative;
+    background-color: #222831;
 }
 
 .connect-section {
     position: relative;
-}
+    background-color: #283148;
+} 
 
 .overlay {
     position: relative;
     padding: 50px;
+}
+
+.pb1 {
+    background-color: #ffac41
+}
+
+.pb2 {
+    background-color: #ff1e56
+}
+
+.pb3 {
+    background-color: #323232
+}
+
+.pb4 {
+    background-color: #000000
+}
+
+.tech {
+    color: white;
+}
+
+.tools {
+    color: gray;
 }
 
 
@@ -88,6 +167,15 @@ body {
     font-family: 'Raleway', sans-serif;
 
 }
+
+.pbutton {
+    border-color: #ffac41 !important;
+}
+
+.pbutton:hover {
+    background-color: #ffac41 !important;
+}
+
 
 .element {
     font-size: 25px;
@@ -110,14 +198,14 @@ body {
     background-color: green;
 }
 
-.progress-bar {
+/* .progress-bar {
     margin: 20px;
     max-width: 100%;
     height: 6px;
     color: red;
     background-color:#1A1A1D;
     opacity: 1;   
-}
+} */
 
 h1 {
     color: #ff5c33;
@@ -190,7 +278,12 @@ h1 {
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-  }
+}
+
+.aboutme {
+    font-weight: 400;
+    font-size: 25px;
+}
 
   
 h6 {
@@ -204,9 +297,24 @@ img {
 }
 
 .cmodify {
-    background-color: rgba(71, 71, 74, 0.5);
+    /*background-color: rgba(71, 71, 74, 0.5);*/
+    background-color: #222831;
     color: white;
-    border-color: #ff5c33ab;
+    border-color: #ffac41;
+}
+
+.cmodify3 {
+    background-color: #393e46;
+    color: white;
+    border-color: #ffac41;
+}
+
+.cmodify2 {
+    border-color: #ffac41 !important;
+}
+
+.card-footer {
+    border-color: #ffac41
 }
 
 
@@ -220,7 +328,7 @@ img {
 }
 
 .profile-pic {
-    max-width: 40%;
+    max-width: 20%;
     height: auto;
 }
 
@@ -230,14 +338,13 @@ img {
 }
 
 i {
-    color: rgb(65, 65, 68);
+    color: rgb(98, 98, 100);
 }
 
 .icon2 {
-    color: white;
     text-align: right;
-    padding-top: 4px;
-    padding-left: 10px;
+    padding-top: 5px;
+    padding-left: 150px;;
 }
 
 i:hover {
@@ -250,6 +357,3 @@ i:hover {
     color: white;
     text-align: center;
 }
-
-
-    
