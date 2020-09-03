@@ -26,6 +26,17 @@
     width: 25px;
 }
 
+.uvicheader {
+    width: 400px;
+    height: auto;
+    opacity: 1;
+}
+
+.headerimage {
+    background-color:  #5b6371;
+}
+
+
 #topbtn {
     display: none;
     position: fixed;
@@ -55,7 +66,6 @@
     color: red;
     text-align: center;
 }
-
 
 
 #particles-js0 {

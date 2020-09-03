@@ -1,8 +1,7 @@
 var options = {
   strings: ['Software Engineer', 'Web Developer', 'Software Engineer | Web Developer'],
   typeSpeed: 40,
-  fadeOut: false,
-  showCursor: false
+  backSpeed: 40
 };
   
 var typed = new Typed('.element', options);
