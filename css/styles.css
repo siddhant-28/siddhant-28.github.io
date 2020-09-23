@@ -33,7 +33,7 @@
 }
 
 .headerimage {
-    background-color:  #5b6371;
+    background-color:  white;
 }
 
 
@@ -81,7 +81,7 @@
     height: 100% !important;
     width: 100% !important;
     z-index: -1;
-    background-color: #222831;
+    background-color: #232931;
 }
 
 #particles-js2 {
@@ -122,8 +122,8 @@
 
 .front-page {
     position: relative;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 } 
 
 .skills-section {
@@ -140,6 +140,7 @@
 .projects-section {
     position: relative;
     background-color: #283148;
+
 }
 
 .main {
@@ -275,6 +276,11 @@ h1 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.parking-image {
+    width: 500px;
+    height: auto;
 }
 
 .image-container:hover .image {
